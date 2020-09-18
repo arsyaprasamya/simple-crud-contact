@@ -1,4 +1,4 @@
-import { ADD_USER } from "../actions";
+import { ADD_USER } from "./actions";
 
 function userDataReducer(state = { users: [] }, action) {
   switch (action.type) {
